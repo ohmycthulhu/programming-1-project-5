@@ -18,9 +18,15 @@ class Application(tk.Tk):
         return os.listdir(Application.DATA_DIR)
 
     def _construct(self):
+        current_row = 0
+        tk.Label(master=self, text='Available Files').grid(row=current_row, column=0, columnspan=2)
+        current_row += 1
         files = self._read_files()
-        for file in files:
-            tk.Button(self, text=file, command=lambda f=file: self._display_image(f)).pack()
+        for i, file in enumerate(files):
+            tk.Button(self, text=file, command=lambda f=file: self._display_image(f))\
+                .grid(row=int(current_row), column=(i % 2))
+            current_row += 1 / 2
+        current_row += 1
 
     @staticmethod
     def _display_image(file_name):
