@@ -2,6 +2,13 @@
   "name": "Mind Map",
   "maps": [
     "meta/student01.json",
-    "meta/student03.json"
+    "meta/student02.json",
+    "meta/student03.json",
+    "meta/student04.json",
+    "meta/student05.json",
+    "meta/student06.json",
+    "meta/student07.json",
+    "meta/student08.json",
+    "meta/student09.json"
   ]
 }

@@ -42,6 +42,7 @@ class Application(tk.Tk):
 
     def _display_mind_map(self):
         path = 'tmp/mind_map.png'
+        # if not os.path.exists(path):
         self._mm.export(path)
         self._display_local_image(path, title='Mind Map')
 
@@ -56,7 +57,7 @@ class Application(tk.Tk):
         w.title(title)
         load = Image.open(path)
         img = ImageTk.PhotoImage(load, master=w)
-        ScrollableImage(master=w, image=img, width=600, height=600).pack()
+        ScrollableImage(master=w, image=img, width=720, height=720).pack()
 
         w.mainloop()
 

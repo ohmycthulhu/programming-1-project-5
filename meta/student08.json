@@ -1,0 +1,95 @@
+{
+  "name": "Student08.pdf",
+  "color": "pink",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "leaves": [
+        {
+          "name": "overloading",
+          "leaves": [
+            {
+              "name": "Create multiple function with the same name but with different implementation"
+            }
+          ]
+        },
+        {
+          "name": "overriding",
+          "leaves": [
+            {"name": "provides the specific implementation of the method in a subclass that is already provided by its superclass", "leaves": []}
+          ]
+        },
+        {
+          "name": "objects",
+          "leaves": [
+            {
+              "name": "instances of classes",
+              "leaves": []
+            },
+            {
+              "name": "instance variables- data that belongs to individual objects",
+              "leaves": []
+            }
+          ]
+        },
+        {
+          "name": "classes",
+          "leaves": [
+            {
+              "name": "data format",
+              "leaves": []
+            },
+            {
+              "name": "methods available",
+              "leaves": []
+            }
+          ]
+        },
+        {
+          "name": "3 types of relations",
+          "leaves": [
+            {
+              "name": "Compositions",
+              "leaves": [
+                {"name": "When an object contains another object in their instance variables", "leaves": []}
+              ]
+            },
+            {
+              "name": "Aggregation",
+              "leaves": [
+                {"name": "composition but the destruction of the parent object will not destroy the child object", "leaves": []}
+              ]
+            },
+            {
+              "name": "Delegation",
+              "leaves": [
+                {"name": "Using methods on a parent object, applies automatically on the child object", "leaves": []}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3 keys",
+          "leaves": [
+            {
+              "name": "Encapsulation",
+              "leaves": [
+                {"name": "Abstraction", "leaves": []}
+              ]
+            },
+            {
+              "name": "Inheritance",
+              "leaves": [
+                {"name": "We can create child from parent classes - we form hierarchy", "leaves": []}
+              ]
+            },
+            {
+              "name": "Polymorphism",
+              "leaves": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

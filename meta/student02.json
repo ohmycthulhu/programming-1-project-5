@@ -1,0 +1,206 @@
+{
+  "name": "Student02.jpg",
+  "color": "grey",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "leaves": [
+        {
+          "name": "JAVA",
+          "leaves": [
+            {
+              "name": "Base",
+              "leaves": [
+                {
+                  "name": "Expression",
+                  "leaves": [
+                    {
+                      "name": "Value"
+                    }
+                  ]
+                },
+                {
+                  "name": "Statements",
+                  "leaves": [
+                    {
+                      "name": ";"
+                    },
+                    {
+                      "name": "if, switch, while, ..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Instruction",
+                  "leaves": [
+                    {
+                      "name": "{}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Variables",
+              "leaves": [
+                {
+                  "name": "Identifier, type, initializer"
+                },
+                {
+                  "name": "Scope"
+                },
+                {
+                  "name": "Static"
+                },
+                {
+                  "name": "Insurance"
+                }
+              ]
+            },
+            {
+              "name": "Inputs",
+              "leaves": [
+                {
+                  "name": "import"
+                },
+                {
+                  "name": "int, double, long, ..."
+                },
+                {
+                  "name": "scanner"
+                }
+              ]
+            },
+            {
+              "name": "Packages"
+            }
+          ]
+        },
+        {
+          "name": "ULM",
+          "leaves": []
+        },
+        {
+          "name": "Streams",
+          "leaves": [
+            {
+              "name": "Input",
+              "leaves": [
+                {
+                  "name": "Reading method"
+                }
+              ]
+            },
+            {
+              "name": "Output"
+            }
+          ]
+        },
+        {
+          "name": "Relationships",
+          "leaves": [
+            {
+              "name": "Aggregation"
+            },
+            {
+              "name": "Composition"
+            },
+            {
+              "name": "Delegation"
+            }
+          ]
+        },
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "Superclass"
+            },
+            {
+              "name": "Subclass"
+            },
+            {
+              "name": "No multiple"
+            }
+          ]
+        },
+        {
+          "name": "Encapsulation",
+          "leaves": [
+            {
+              "name": "Class",
+              "leaves": [
+                {
+                  "name": "instances"
+                },
+                {
+                  "name": "parameterized"
+                },
+                {
+                  "name": "Public interface",
+                  "leaves": [
+                    {
+                      "name": "Private data",
+                      "leaves": [
+                        {
+                          "name": "Exceptions",
+                          "leaves": [
+                            {
+                              "name": "unchecked"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Stach"
+                        },
+                        {
+                          "name": "Interface"
+                        },
+                        {
+                          "name": "Implementation"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "behaviour"
+                    }
+                  ]
+                },
+                {
+                  "name": "Nested",
+                  "leaves": [
+                    {
+                      "name": "static"
+                    },
+                    {
+                      "name": "not static",
+                      "leaves": [
+                        {
+                          "name": "Inner-class"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Constructors",
+                  "leaves": [
+                    {
+                      "name": "user-defined"
+                    },
+                    {
+                      "name": "overriding"
+                    },
+                    {
+                      "name": "overload"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

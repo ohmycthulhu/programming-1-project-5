@@ -1,0 +1,76 @@
+{
+  "name": "Student05.png",
+  "color": "red",
+  "map": {
+    "root": {
+      "name": "programation",
+      "leaves": [
+        {
+          "name": "classes",
+          "leaves": []
+        },
+        {
+          "name": "object",
+          "leaves": []
+        },
+        {
+          "name": "attribute",
+          "leaves": []
+        },
+        {
+          "name": "methods",
+          "leaves": []
+        },
+        {
+          "name": "encapsulation",
+          "leaves": [
+            {
+              "name": "class",
+              "leaves": [
+                {
+                  "name": "behaviour instance structure"
+                }
+              ]
+            },
+            {
+              "name": "abstraction",
+              "leaves": [
+                {
+                  "name": "interface"
+                },
+                {
+                  "name": "aggregation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "inheritance",
+          "leaves": [
+            {
+              "name": "single"
+            },
+            {
+              "name": "double"
+            },
+            {
+              "name": "hierarchical / hybrid"
+            }
+          ]
+        },
+        {
+          "name": "polymorphism",
+          "leaves": [
+            {
+              "name": "overloading"
+            },
+            {
+              "name": "Overriding"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

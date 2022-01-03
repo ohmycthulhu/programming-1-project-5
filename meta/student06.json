@@ -1,0 +1,170 @@
+{
+  "name": "Student06.pdf",
+  "color": "lime",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "leaves": [
+        {
+          "name": "inheritance",
+          "leaves": [
+            {
+              "name": "Hierarchical classification",
+              "leaves": [
+                {
+                  "name": "sharing properties for animals (for example)",
+                  "leaves": [
+                    {
+                      "name": "superclasses = object"
+                    },
+                    {
+                      "name": "subclasses"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Animals",
+              "leaves": [
+                {
+                  "name": "Mammals"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "polymorphism",
+          "leaves": [
+            {
+              "name": "integers, chars and floats in a general set",
+              "leaves": [
+                {
+                  "name": "implements"
+                },
+                {
+                  "name": "Abstraction",
+                  "leaves": [
+                    {
+                      "name": "fundamental principe of OOP which extend on and overid elements from attributes"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Vehicle (for example)",
+              "leaves": [
+                {
+                  "name": "Move forward",
+                  "leaves": [
+                    {
+                      "name": "Car",
+                      "leaves": [
+                        {
+                          "name": "step on the gas pedal",
+                          "leaves": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Motorbike",
+                      "leaves": [
+                        {
+                          "name": "turn the throttle towards you",
+                          "leaves": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Bicycle",
+                      "leaves": [
+                        {
+                          "name": "pedal",
+                          "leaves": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "encapsulation",
+          "leaves": [
+            {
+              "name": "Protection and create a link between code and data"
+            },
+            {
+              "name": "class = object",
+              "leaves": [
+                {
+                  "name": "nested class",
+                  "leaves": [
+                    {
+                      "name": "defined inside a container class list which is linked"
+                    }
+                  ]
+                },
+                {
+                  "name": "methods",
+                  "leaves": [
+                    {
+                      "name": "overloading",
+                      "leaves": [
+                        {
+                          "name": "same but different types of input"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "overriding",
+                      "leaves": [
+                        {
+                          "name": "new method that has already been defined by a parent class"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "delegation",
+                  "leaves": [
+                    {
+                      "name": "reuse the function"
+                    }
+                  ]
+                },
+                {
+                  "name": "aggregation",
+                  "leaves": [
+                    {
+                      "name": "this is an object reference to refer"
+                    }
+                  ]
+                },
+                {
+                  "name": "composition",
+                  "leaves": [
+                    {
+                      "name": "this is an object which owns another object"
+                    },
+                    {
+                      "name": "everytime new in the program"
+                    }
+                  ]
+                },
+                {
+                  "name": "Class > Public interface > infra / private-data and methods"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

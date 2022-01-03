@@ -1,0 +1,67 @@
+{
+  "name": "Student04.pdf",
+  "color": "yellow",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "leaves": [
+        {
+          "name": "Polymorphism",
+          "leaves": [
+            {
+              "name": "Overloading"
+            },
+            {
+              "name": "Overriding"
+            }
+          ]
+        },
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "Hierarchical classification by same attributes an behaviors",
+              "leaves": [
+                {
+                  "name": "subclass"
+                },
+                {
+                  "name": "superclass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encapsulation",
+          "leaves": [
+            {
+              "name": "Class",
+              "leaves": [
+                {
+                  "name": "Members",
+                  "leaves": [
+                    {
+                      "name": "data / instance variables"
+                    },
+                    {
+                      "name": "code / methods"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Structure",
+              "leaves": [
+                {
+                  "name": "Class > Public interface > Private data and method"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

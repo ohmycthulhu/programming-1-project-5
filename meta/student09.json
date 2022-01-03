@@ -1,0 +1,175 @@
+{
+  "name": "Student09.pdf",
+  "color": "green",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "description": "Object Oriented Programming",
+      "leaves": [
+        {
+          "name": "JAVA",
+          "leaves": [
+            {
+              "name": "Data Type",
+              "leaves": [
+                {
+                  "name": "String"
+                },
+                {
+                  "name": "Char"
+                },
+                {
+                  "name": "Double"
+                },
+                {
+                  "name": "Float"
+                },
+                {
+                  "name": "Int"
+                }
+              ]
+            },
+            {
+              "name": "Access Specify / Modify",
+              "leaves": [
+                {
+                  "name": "Public",
+                  "leaves": [
+                    {"name": "You can access it anywhere", "leaves": []}
+                  ]
+                },
+                {
+                  "name": "Private",
+                  "leaves": [
+                    {"name": "You can only access it inside its own class", "leaves": []}
+                  ]
+                },
+                {
+                  "name": "Default",
+                  "leaves": [
+                    {"name": "When you don't assign any access modifier to variables, methods, classes", "leaves": []}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "leaves": [
+            {
+              "name": "Block of code which only runs when it is called"
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "leaves": [
+            {
+              "name": "Public constant or public variables that can be accessed directly"
+            }
+          ]
+        },
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "class acquires the property of another class"
+            },
+            {
+              "name": "Delegation",
+              "leaves": [
+                {
+                  "name": "Using function with composition or aggregation"
+                }
+              ]
+            },
+            {
+              "name": "Composition",
+              "leaves": [
+                {
+                  "name": "An object owns another object"
+                }
+              ]
+            },
+            {
+              "name": "Interface",
+              "leaves": [
+                {
+                  "name": "A class implements an interface, thereby inheriting the abstract methods of the interface"
+                }
+              ]
+            },
+            {
+              "name": "Aggregation",
+              "leaves": [
+                {
+                  "name": "An object references another object"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Encapsulation",
+          "leaves": [
+            {
+              "name": "Process of wrapping code (methods) and data (variables) together into a single unit=binds the code and the data"
+            },
+            {
+              "name": "Class",
+              "leaves": [
+                {
+                  "name": "represents the set of properties or methods that are common to all objects of one type",
+                  "leaves": []
+                },
+                {
+                  "name": "Static variables and methods",
+                  "leaves": [
+                    {"name": "Static methods are related to the instances of the class. It cannot modify instance variables.", "leaves": []}
+                  ]
+                },
+                {
+                  "name": "Public interface",
+                  "leaves": [
+                    {"name": "Private data and method", "leaves": []}
+                  ]
+                },
+                {
+                  "name": "Data"
+                },
+                {
+                  "name": "Object",
+                  "leaves": [
+                    {"name": "It's an instance of a class", "leaves": []}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Polymorphism",
+          "leaves": [
+            {
+              "name": "Overriding",
+              "leaves": [
+                {
+                  "name": "Allow a child class to provide a specific implementation of a method taht is already provided by its parents class"
+                }
+              ]
+            },
+            {
+              "name": "Overloading",
+              "leaves": [
+                {
+                  "name": "Defining methods having the same name in the class and that are distinguish by their signature"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

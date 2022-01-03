@@ -1,0 +1,127 @@
+{
+  "name": "Student07.JPG",
+  "color": "lightblue",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "description": "Object Oriented Programming",
+      "leaves": [
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "Relationships between classes. Used to create more specific versions of classes"
+            },
+            {
+              "name": "Superclass",
+              "leaves": [
+                {
+                  "name": "The parent of a class"
+                },
+                {
+                  "name": "Protected methods & attributes are available to all subclasses"
+                },
+                {
+                  "name": "Stores data & methods common to all subclasses"
+                },
+                {
+                  "name": "Can also implement default behaviours that can be overwritten"
+                }
+              ]
+            },
+            {
+              "name": "Subclass",
+              "leaves": [
+                {
+                  "name": "the child of a superclass. A more specific version of it"
+                },
+                {
+                  "name": "can add additional attributes & methods"
+                },
+                {
+                  "name": "can overwrite behaviors of the superclass"
+                },
+                {
+                  "name": "Super keyword refers to instance of superclass can be used to run methods & for initialization"
+                },
+                {
+                  "name": "extend keyword used to state the superclass of a subclass"
+                },
+                {
+                  "name": "inherits methods & attributes of a superclass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "leaves": [
+            {
+              "name": "this - changes data within object this.numPeople = 2 means this object's numPeople should be set to 2"
+            },
+            {
+              "name": "Specific instances of data & methods"
+            },
+            {
+              "name": "Non-static - associated with the object"
+            },
+            {
+              "name": "a specific instance of a class"
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "leaves": [
+            {
+              "name": "Never public, always private"
+            },
+            {
+              "name": "What is stored in the object"
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "leaves": [
+            {
+              "name": "What is done with the object"
+            },
+            {
+              "name": "Methods can be overloaded"
+            },
+            {
+              "name": "Typically operations on the data"
+            }
+          ]
+        },
+        {
+          "name": "constructor",
+          "leaves": [
+            {
+              "name": "initializes object"
+            }
+          ]
+        },
+        {
+          "name": "class",
+          "leaves": [
+            {
+              "name": "description of how objects should be treated"
+            },
+            {
+              "name": "describes how data is stored"
+            },
+            {
+              "name": "static - associated with the class"
+            },
+            {
+              "name": "describes the methods executes on that data"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
