@@ -1,0 +1,7 @@
+{
+  "name": "Mind Map",
+  "maps": [
+    "meta/student01.json",
+    "meta/student03.json"
+  ]
+}
