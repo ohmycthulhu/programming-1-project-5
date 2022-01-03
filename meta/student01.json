@@ -1,0 +1,91 @@
+{
+  "name": "Student01.pdf",
+  "color": "orange",
+  "map": {
+    "root": {
+      "name": "OOP",
+      "leaves": [
+        {
+          "name": "Composition",
+          "leaves": [
+            {
+              "name": "Object owns (or multiple)"
+            }
+          ]
+        },
+        {
+          "name": "Aggregation",
+          "leaves": [
+            {
+              "name": "Referring - an object calls another one"
+            }
+          ]
+        },
+        {
+          "name": "Delegation",
+          "leaves": [
+            {
+              "name": "Using function with an aggregation or a composition"
+            }
+          ]
+        },
+        {
+          "name": "Class",
+          "leaves": [
+            {
+              "name": "It’s special type of function"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "leaves": [
+            {
+              "name": "Stock in attributes, instances of class"
+            }
+          ]
+        },
+        {
+          "name": "Attribute",
+          "leaves": [
+            {
+              "name": "Call instances variables"
+            }
+          ]
+        },
+        {
+          "name": "Method",
+          "leaves": [
+            {
+              "name": "Contains the dynamic behavior of the class"
+            }
+          ]
+        },
+        {
+          "name": "Encapsulation",
+          "leaves": [
+            {
+              "name": "The Wrapper Abstraction"
+            }
+          ]
+        },
+        {
+          "name": "Polymorphism",
+          "leaves": [
+            {
+              "name": "When a parent form an object takes several forms"
+            }
+          ]
+        },
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "Simple Multiple Classification"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

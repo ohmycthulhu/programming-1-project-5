@@ -30,9 +30,13 @@ class Application(tk.Tk):
 
     @staticmethod
     def _display_image(file_name):
-        w = tk.Tk()
-        w.title(file_name)
         path = Application._convert_if_needed(os.path.join(Application.DATA_DIR, file_name))
+        Application._display_local_image(path, file_name)
+
+    @staticmethod
+    def _display_local_image(path, title):
+        w = tk.Tk()
+        w.title(title)
         load = Image.open(path)
         img = ImageTk.PhotoImage(load, master=w)
         ScrollableImage(master=w, image=img, width=600, height=600).pack()

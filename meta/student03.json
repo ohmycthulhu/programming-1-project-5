@@ -1,0 +1,81 @@
+{
+  "name": "Student03.jpg",
+  "color": "blue",
+  "map": {
+    "root": {
+      "name": "OOPs",
+      "description": "Object-Oriented Programming System",
+      "leaves": [
+        {
+          "name": "Class",
+          "leaves": [
+            {
+              "name": "Behaviour"
+            },
+            {
+              "name": "Instance"
+            },
+            {
+              "name": "Structure"
+            }
+          ]
+        },
+        {
+          "name": "Abstraction",
+          "leaves": [
+            {
+              "name": "User expectation"
+            },
+            {
+              "name": "Unnecessary Details"
+            }
+          ]
+        },
+        {
+          "name": "Encapsulation",
+          "leaves": [
+            {
+              "name": "Variables"
+            },
+            {
+              "name": "Methods"
+            }
+          ]
+        },
+        {
+          "name": "Polymorphism",
+          "leaves": [
+            {
+              "name": "Data structure"
+            }
+          ]
+        },
+        {
+          "name": "Object",
+          "leaves": [
+            {
+              "name": "Data functions"
+            }
+          ]
+        },
+        {
+          "name": "Inheritance",
+          "leaves": [
+            {
+              "name": "Single"
+            },
+            {
+              "name": "Hierarchical"
+            },
+            {
+              "name": "Hybrid"
+            },
+            {
+              "name": "Multilevel"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
