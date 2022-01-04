@@ -16,6 +16,7 @@ class Application(tk.Tk):
     TMP_DIR = './tmp'
     IMAGE_WIDTH = 720
     IMAGE_HEIGHT = 720
+    AVAILABLE_FORMATS = ['png', 'jpg', 'jpeg', 'pdf']
 
     def __init__(self, title='No name', maps=None, **kwargs):
         if maps is None:
@@ -26,8 +27,13 @@ class Application(tk.Tk):
         self._construct()
 
     @staticmethod
+    def _is_file_readable(path):
+        ext = path.split('.')[-1]
+        return ext.lower() in Application.AVAILABLE_FORMATS
+
+    @staticmethod
     def _read_files():
-        return os.listdir(Application.DATA_DIR)
+        return [path for path in os.listdir(Application.DATA_DIR) if Application._is_file_readable(path)]
 
     def _construct(self):
         current_row = 0
