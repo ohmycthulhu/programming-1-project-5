@@ -1,39 +1,39 @@
 from functools import reduce
 
 
-reduce_lists = lambda acc, level: (acc + level['leaves']) if 'leaves' in level else acc
+"""
+    File that holds helpers for working with trees
+"""
+
+reduce_leaves = lambda acc, level: (acc + level['leaves']) if 'leaves' in level else acc
 
 
 def generate_key(name):
+    """Generates new key by name"""
     return name.strip().lower().replace(' ', '_')
 
 
 def preprocess_tree(t, data, key_prepend='', current_level=1):
+    """Recursive function for processing each node of the tree"""
     key = generate_key(t['name'])
+    # key_prepend displays the path to the node
     if key_prepend:
         key = key_prepend + '-' + key
+
+    # Color, key, and level are saved for easy processing
+    # Weight signifies the amount of merged nodes
     t['color'] = data['color']
     t['key'] = key
     t['level'] = current_level
     t['weight'] = 1
     next_level = current_level + 1
+
+    # Preprocess also all leaves if there are any
     if 'leaves' in t:
         for leaf in t['leaves']:
             preprocess_tree(leaf, data, key, next_level)
+
     return t
-
-
-def are_keys_equal(k1, k2):
-    if k1 == k2:
-        return True
-
-    parts1, parts2 = k1.split('-'), k2.split('-')
-    for p1, p2 in zip(parts1, parts2):
-        if p1 == '' or p2 == '':
-            continue
-        if p1 != p2:
-            return False
-    return True
 
 
 def _merge_levels(*levels):
@@ -44,23 +44,32 @@ def _merge_levels(*levels):
 
     return {
         **levels[0],
+        # Replace the color by 'black' to show that there are many nodes merged
         'color': 'black',
+        # New weight is sum of all weights
         'weight': sum([level['weight'] for level in levels]),
-        'leaves': reduce(reduce_lists, levels, [])
+        # New leaves are combination of all leaves
+        'leaves': reduce(reduce_leaves, levels, [])
     }
 
 
 def _extract_leaves(nodes):
-    return [node['leaves'] if 'leaves' in node else [] for node in nodes]
+    return [(node['leaves'] if 'leaves' in node else []) for node in nodes]
 
 
 def merge_levels(*node_lists):
+    # Merge all nodes from node_lists
     nodes_all = reduce(lambda acc, nl: acc + nl, node_lists, [])
+
+    # Get unique keys
     keys = set([n['key'] for n in nodes_all])
     result = []
+
+    # Merge all nodes by unique keys
     for key in keys:
         nodes = [n for n in nodes_all if n['key'] == key]
         result.append(_merge_levels(*nodes))
+
     return result
 
 

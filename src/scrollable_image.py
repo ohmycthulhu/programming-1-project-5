@@ -2,6 +2,10 @@ import tkinter
 
 
 class ScrollableImage(tkinter.Frame):
+    """
+     Widget for displaying the image can is too big for screen.
+     Provides ability to customize the scrollbar and configure size of the window
+    """
     def __init__(self, master=None, **kw):
         self.image = kw.pop('image', None)
         sw = kw.pop('scrollbarwidth', 10)
@@ -28,7 +32,7 @@ class ScrollableImage(tkinter.Frame):
         self.cnvs.bind_class(self.cnvs, "<MouseWheel>", self.mouse_scroll)
 
     def mouse_scroll(self, evt):
-        if evt.state == 0 :
+        if evt.state == 0:
             self.cnvs.yview_scroll(-1*(evt.delta), 'units') # For MacOS
             self.cnvs.yview_scroll(int(-1*(evt.delta/120)), 'units') # For windows
         if evt.state == 1:
